@@ -7,4 +7,42 @@
 :root {
   font-size: 62.5%;
 }
- 
+
+/* font-family: 'Josefin Sans', sans-serif;
+
+font-family: 'Lobster', cursive;
+ */
+
+.container1 {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem;
+  text-align: center;
+}
+
+.intro {
+  background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+  background-size: cover;
+  color: white;
+}
+
+.one {
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  padding-top: 8rem;
+  margin-top: 5rem;
+}
+
+.two {
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 4rem;
+}
+
+.three {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  padding: 7rem;
+}
