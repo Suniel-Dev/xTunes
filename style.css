@@ -82,11 +82,39 @@ li {
 }
 
 .btn1 {
-  background-color: red;
+  background-color: rgb(209, 46, 46);
   border-radius: 1rem;
   width: 30%;
   max-width: 400px;
   padding: 2rem;
   margin: 3rem auto;
   font-family: "Josefin Sans", sans-serif;
+}
+
+.hero {
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.h-one {
+  font-size: 3rem;
+  font-family: "Lobster", cursive;
+  padding: 5rem;
+}
+
+.h-two {
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  word-wrap: normal;
+}
+
+.btn2 {
+  background-color: rgb(7, 163, 207);
+  border-radius: 1rem;
+  width: auto;
+  max-width: 200px;
+  padding: 1rem 1rem;
+  margin: 5rem auto;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.5rem;
 }
