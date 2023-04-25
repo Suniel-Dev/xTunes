@@ -247,12 +247,12 @@ h6 {
     line-height: 50px;
   }
 
+  .nav {
+    background-color: #333;
+  }
+
   .nav:focus .nav-bar {
     opacity: 1;
     visibility: visible;
-  }
-
-  .nav {
-    background-color: #333;
   }
 }
