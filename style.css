@@ -234,6 +234,10 @@ h6 {
     font-family: "Lobster", cursive;
   }
 
+  .nav {
+    background-color: #333;
+  }
+
   .nav:focus {
     pointer-events: none;
   }
@@ -245,10 +249,6 @@ h6 {
     flex-direction: column;
     background-color: transparent;
     line-height: 50px;
-  }
-
-  .nav {
-    background-color: #333;
   }
 
   .nav:focus .nav-bar {
