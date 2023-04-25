@@ -2,16 +2,183 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 :root {
   font-size: 62.5%;
 }
 
-h1 {
-  font-size: 4rem;
-  text-transform: uppercase;
-  color: red;
+a {
+  color: inherit;
+}
+
+img {
+  width: 80%;
+}
+
+.intro {
+  background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+  background-size: cover;
+  color: white;
+}
+
+.container1 {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem;
   text-align: center;
-  margin: 7rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  padding-top: 8rem;
+  margin-top: 5rem;
+}
+
+.c-one {
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 4rem;
+}
+
+.c-two {
+  font-size: 2.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 7rem;
+}
+
+.info {
+  background-color: #252529;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+li {
+  font-size: 5rem;
+  padding-right: 10px;
+}
+
+.i-one {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 5rem;
+  font-family: "Lobster", cursive;
+}
+
+.i-two {
+  padding: 4rem;
+  font-family: "Lobster", cursive;
+}
+
+.i-three {
+  padding: 4rem;
+}
+
+.i-four {
+  padding: 4rem;
+  font-size: 2rem;
+}
+
+.btn1 {
+  background-color: rgb(209, 46, 46);
+  border-radius: 1rem;
+  width: 30%;
+  max-width: 400px;
+  padding: 2rem;
+  margin: 3rem auto;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.hero {
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+h3 {
+  font-size: 3rem;
+  font-family: "Lobster", cursive;
+  padding: 5rem;
+}
+
+.h-one {
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  word-wrap: normal;
+}
+
+.btn2 {
+  background-color: rgb(7, 163, 207);
+  border-radius: 1rem;
+  width: auto;
+  max-width: 200px;
+  padding: 1rem 1rem;
+  margin: 5rem auto;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.5rem;
+}
+
+.hero_text {
+  padding: 5rem;
+  text-align: center;
+  color: white;
+  background: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+  background-size: cover;
+  height: 80vh;
+}
+
+h4 {
+  font-size: 3rem;
+  font-family: "Lobster", cursive;
+  padding: 5rem;
+}
+
+.ht-one {
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  width: 80%;
+  margin: 6rem auto;
+}
+
+.details {
+  display: flex;
+  width: 80%;
+  max-width: 1500px;
+  margin: 3rem auto;
+}
+
+h5 {
+  font-size: 4.5rem;
+  font-family: "Lobster", cursive;
+  padding: 5rem;
+}
+
+.s-one {
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.s-two {
+  font-size: 2.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 20px;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+.btn3::before {
+  content: "> ";
+}
+
+.btn3 {
+  font-size: 2.3rem;
+  background-color: transparent;
+  color: blue;
 }
