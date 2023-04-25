@@ -13,6 +13,10 @@ a {
   color: inherit;
 }
 
+img {
+  width: 80%;
+}
+
 .intro {
   background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
   background-size: cover;
@@ -139,4 +143,42 @@ h4 {
   font-family: "Josefin Sans", sans-serif;
   width: 80%;
   margin: 6rem auto;
+}
+
+.details {
+  display: flex;
+  width: 80%;
+  max-width: 1500px;
+  margin: 3rem auto;
+}
+
+h5 {
+  font-size: 4.5rem;
+  font-family: "Lobster", cursive;
+  padding: 5rem;
+}
+
+.s-one {
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.s-two {
+  font-size: 2.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 20px;
+}
+
+hr {
+  margin-top: 20px;
+}
+
+.btn3::before {
+  content: "> ";
+}
+
+.btn3 {
+  font-size: 2.3rem;
+  background-color: transparent;
+  color: blue;
 }
