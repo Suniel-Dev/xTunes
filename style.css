@@ -58,7 +58,7 @@ h1 {
   color: white;
 }
 
-li {
+span {
   font-size: 5rem;
   padding-right: 10px;
 }
@@ -181,4 +181,34 @@ hr {
   font-size: 2.3rem;
   background-color: transparent;
   color: blue;
+}
+
+.last {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  background-color: #252529;
+  color: white;
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  height: 60vh;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  line-height: 3.5rem;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+h6 {
+  font-size: 4rem;
+  font-family: "Lobster", cursive;
+  color: white;
 }
