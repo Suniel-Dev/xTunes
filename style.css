@@ -13,17 +13,17 @@
 .nav-bar {
   display: flex;
   justify-content: space-evenly;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
   font-family: "Bruno Ace SC", cursive;
-  padding: 20px;
+  padding: 10px;
   width: 100%;
   background-color: #333;
   position: fixed;
 }
 
 li:hover {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 a {
@@ -68,7 +68,7 @@ h1 {
   padding: 7rem;
 }
 
-.info {
+#info {
   background-color: #252529;
   text-align: center;
   font-size: 3rem;
@@ -112,7 +112,7 @@ span {
   font-family: "Bruno Ace SC", cursive;
 }
 
-.hero {
+#hero {
   text-align: center;
   background-color: #f4f4f4;
 }
@@ -141,7 +141,7 @@ h3 {
   font-size: 2.5rem;
 }
 
-.hero_text {
+#hero_text {
   padding: 5rem;
   text-align: center;
   color: white;
@@ -163,7 +163,7 @@ h4 {
   margin: 6rem auto;
 }
 
-.details {
+#details {
   display: flex;
   width: 80%;
   max-width: 1500px;
@@ -202,7 +202,7 @@ hr {
   color: blue;
 }
 
-.last {
+#last {
   display: flex;
   justify-content: space-evenly;
   align-items: start;
@@ -213,9 +213,9 @@ hr {
   padding: 20px;
 }
 
-.end {
+#last li {
   text-align: left;
-  line-height: 3.5rem;
+  line-height: 35px;
 }
 
 footer {
@@ -289,11 +289,11 @@ h6 {
     padding: 0;
   }
 
-  .details {
+  #details {
     display: block;
   }
 
-  .last {
+  #last {
     display: block;
     font-size: 2rem;
     line-height: 35px;
