@@ -126,7 +126,8 @@ h3 {
 .h_one {
   font-size: 2rem;
   font-family: "Josefin Sans", sans-serif;
-  word-wrap: normal;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .btn2 {
@@ -278,5 +279,17 @@ h6 {
   .c_two {
     padding: 10px;
     margin-top: 20px;
+  }
+
+  .btn1 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    padding: 0;
+  }
+
+  .details {
+    display: block;
   }
 }
