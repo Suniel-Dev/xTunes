@@ -22,6 +22,10 @@
   position: fixed;
 }
 
+li:hover {
+  font-size: 3.5rem;
+}
+
 a {
   color: inherit;
 }
@@ -30,7 +34,7 @@ img {
   width: 80%;
 }
 
-.intro {
+.header {
   background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
   background-size: cover;
   color: white;
@@ -51,14 +55,14 @@ h1 {
   margin-top: 5rem;
 }
 
-.c-one {
+.c_one {
   font-size: 3.5rem;
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
   padding: 4rem;
 }
 
-.c-two {
+.c_two {
   font-size: 2.5rem;
   font-family: "Josefin Sans", sans-serif;
   padding: 7rem;
@@ -76,7 +80,7 @@ span {
   padding-right: 10px;
 }
 
-.i-one {
+.i_one {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -84,16 +88,16 @@ span {
   font-family: "Lobster", cursive;
 }
 
-.i-two {
+.i_two {
   padding: 4rem;
   font-family: "Lobster", cursive;
 }
 
-.i-three {
+.i_three {
   padding: 4rem;
 }
 
-.i-four {
+.i_four {
   padding: 4rem;
   font-size: 2rem;
 }
@@ -119,10 +123,11 @@ h3 {
   padding: 5rem;
 }
 
-.h-one {
+.h_one {
   font-size: 2rem;
   font-family: "Josefin Sans", sans-serif;
-  word-wrap: normal;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .btn2 {
@@ -151,7 +156,7 @@ h4 {
   padding: 5rem;
 }
 
-.ht-one {
+.ht_one {
   font-size: 2rem;
   font-family: "Josefin Sans", sans-serif;
   width: 80%;
@@ -171,12 +176,12 @@ h5 {
   padding: 5rem;
 }
 
-.s-one {
+.s_one {
   font-size: 2rem;
   font-family: "Josefin Sans", sans-serif;
 }
 
-.s-two {
+.s_two {
   font-size: 2.5rem;
   font-family: "Josefin Sans", sans-serif;
   padding-top: 20px;
@@ -205,7 +210,6 @@ hr {
   color: white;
   font-size: 2rem;
   font-family: "Josefin Sans", sans-serif;
-  height: 60vh;
   padding: 20px;
 }
 
@@ -226,16 +230,17 @@ h6 {
   color: white;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .nav::before {
-    content: "☰ xTunes";
+    content: "☰ xMenu";
     font-size: 3rem;
-    margin: 3rem;
+    margin: 3.5rem;
     font-family: "Lobster", cursive;
+    position: absolute;
   }
 
   .nav {
-    background-color: #333;
+    color: white;
   }
 
   .nav:focus {
@@ -243,16 +248,59 @@ h6 {
   }
 
   .nav-bar {
-    position: fixed;
     opacity: 0;
     display: flex;
     flex-direction: column;
-    background-color: transparent;
+    background-color: #333;
+    position: absolute;
     line-height: 50px;
   }
 
   .nav:focus .nav-bar {
     opacity: 1;
     visibility: visible;
+  }
+
+  .header {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    padding: 0;
+  }
+
+  .c_one {
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .c_two {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .btn1 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    padding: 0;
+  }
+
+  .details {
+    display: block;
+  }
+
+  .last {
+    display: block;
+    font-size: 2rem;
+    line-height: 35px;
+  }
+
+  h6 {
+    font-size: 3rem;
+    line-height: 50px;
   }
 }
