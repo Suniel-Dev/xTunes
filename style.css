@@ -22,6 +22,10 @@
   position: fixed;
 }
 
+li:hover {
+  font-size: 3.5rem;
+}
+
 a {
   color: inherit;
 }
@@ -171,7 +175,7 @@ h5 {
   padding: 5rem;
 }
 
-.s-one {
+.s_one {
   font-size: 2rem;
   font-family: "Josefin Sans", sans-serif;
 }
