@@ -209,7 +209,6 @@ hr {
   color: white;
   font-size: 2rem;
   font-family: "Josefin Sans", sans-serif;
-  height: 60vh;
   padding: 20px;
 }
 
@@ -230,16 +229,17 @@ h6 {
   color: white;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .nav::before {
-    content: "☰ xTunes";
+    content: "☰ xMenu";
     font-size: 3rem;
-    margin: 3rem;
+    margin: 3.5rem;
     font-family: "Lobster", cursive;
+    position: absolute;
   }
 
   .nav {
-    background-color: #333;
+    color: white;
   }
 
   .nav:focus {
@@ -247,16 +247,36 @@ h6 {
   }
 
   .nav-bar {
-    position: fixed;
     opacity: 0;
     display: flex;
     flex-direction: column;
-    background-color: transparent;
+    background-color: #333;
+    position: absolute;
     line-height: 50px;
   }
 
   .nav:focus .nav-bar {
     opacity: 1;
     visibility: visible;
+  }
+
+  .header {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    padding: 0;
+  }
+
+  .c_one {
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .c_two {
+    padding: 10px;
+    margin-top: 20px;
   }
 }
