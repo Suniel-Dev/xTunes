@@ -213,9 +213,9 @@ hr {
   padding: 20px;
 }
 
-.end {
+#last li {
   text-align: left;
-  line-height: 3.5rem;
+  line-height: 35px;
 }
 
 footer {
