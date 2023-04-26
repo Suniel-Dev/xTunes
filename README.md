@@ -12,7 +12,7 @@
 ## Getting Started
 
 ## Live view
-[Live view] 
+[Live view](https://magenta-biscuit-f3c1b9.netlify.app)
 
 ## Prerequisite
 
